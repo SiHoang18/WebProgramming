@@ -40,7 +40,7 @@ body{
 }
 .hero{
     display: flex;
-    background-image: url("https://github.com/SiHoang18/WebProgramming/blob/main/images/background.png");
+    background-image: url('https://raw.githubusercontent.com/SiHoang18/WebProgramming/main/images/background.png');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 100% 100%;
