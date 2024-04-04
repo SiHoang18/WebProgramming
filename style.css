@@ -1,0 +1,235 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: contents;
+    font-family:Arial, Helvetica, sans-serif
+}
+.navbar{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: rgb(4, 5, 5); 
+}
+.logo{
+    padding-left: 80px;
+    color: white;
+    justify-content: flex-start;
+}
+.menu .menu-list{
+    display: flex;
+    list-style: none;
+}
+.menu-list-items .links{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.menu-list-items .links:hover{
+    text-decoration: underline;
+    color: rgb(138, 24, 16);
+}
+.hero{
+    display: flex;
+    background-image: url("D:/WebProgramming/My Portfolio/images/background.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    margin: 5rem 0;
+    align-items: center;
+    justify-content: end;
+}
+.intro{
+    margin: 0 5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.intro-button button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(144, 182, 238);
+    margin-left: 20px;
+}
+.intro-button a{
+    text-decoration: none;
+    color: white;
+}
+.intro-button button:hover{background-color: rgb(31, 40, 54);}
+
+.portfolio{
+    margin: 0; 
+    padding: 0; 
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.portfolio h2{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    background-color: aquamarine;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cplusplus{
+    border-radius: 13px;
+    border-style: solid;
+    border-width: 2px;
+    background-image: url("D:/WebProgramming/My Portfolio/images/C++.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(29, 53, 158);
+    color: rgb(3, 3, 3);
+    width: 300px;
+    height: 200px;
+}
+.Cplusplus h3{
+    color: white;
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+}
+
+.python{
+    border-radius: 13px;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    background-image: url("D:/WebProgramming/My Portfolio/images/python.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    margin-left: 150px;
+    width: 300px;
+    height: 200px;
+}
+
+.python h3{
+    color: white;
+    display: flex;
+    padding-top: 150px;
+    padding-left: 55px;
+}
+
+.webPro{
+    border-radius: 13px;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    background-image: url("D:/WebProgramming/My Portfolio/images/webPro.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(72, 73, 80);
+    margin-left: 150px;
+    width: 300px;
+    height: 200px;
+}
+
+.webPro h3{
+    color: white;
+    display: flex;
+    padding-top: 155px;
+    padding-left: 70px;
+}
+.contain1{
+    background-color: blue;
+}
+.content{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.content img{
+    padding: 100px;
+    justify-content: center;
+}
+.paragraph{
+    justify-content: center;
+    padding: 80px;
+    color: white;
+    margin-left: 200px;
+}
+
+.Contact{
+    padding-top: 100px;
+}
+.Contact h1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.contain img{
+    display: flex;
+    width: 500px;
+}
+.contain .detail{
+    justify-content: center;
+    align-content: center;
+    margin-left: 100px;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+.foot h4{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.social{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.social a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (min-width: 856px) and (max-width: 1024px) { 
+    .menu-list .menu-list-items { 
+        padding: 0.5rem 0.3rem; 
+    } 
+} 
+
+/* Animation  */
+
+.hidden{
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.fade_in{
+    opacity: 1;
+}
