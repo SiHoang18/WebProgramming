@@ -93,7 +93,7 @@ body{
     border-radius: 13px;
     border-style: solid;
     border-width: 2px;
-    background-image: url("https://github.com/SiHoang18/WebProgramming/blob/main/images/C%2B%2B.png");
+    background-image: url("https://raw.githubusercontent.com/SiHoang18/WebProgramming/main/images/C++.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: rgb(29, 53, 158);
@@ -113,7 +113,7 @@ body{
     display: flex;
     border-style: solid;
     border-width: 2px;
-    background-image: url("https://github.com/SiHoang18/WebProgramming/blob/main/images/python.png");
+    background-image: url("https://raw.githubusercontent.com/SiHoang18/WebProgramming/main/images/python.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: black;
@@ -134,7 +134,7 @@ body{
     display: flex;
     border-style: solid;
     border-width: 2px;
-    background-image: url("https://github.com/SiHoang18/WebProgramming/blob/main/images/webPro.png");
+    background-image: url("https://raw.githubusercontent.com/SiHoang18/WebProgramming/main/images/webPro.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: rgb(72, 73, 80);
